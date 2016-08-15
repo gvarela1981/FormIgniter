@@ -3,6 +3,8 @@ FormIgniter v0.8 - http://formigniter.org - running on CI 2.0 Reactor
 
 Formigniter takes away the drudge work of building your forms. You can now go
 on to build the more interesting custom elements, session controls and data manipulation.
+Copy assets directory to you application root directory, there should be 4 directories (application, assets, system and user_guide)
+Note: Don´t forget to set up $config['base_url'] in .../aplication/config/config.php (line 25) for core.css to load.
 
 INSTALL
 -------
@@ -12,9 +14,7 @@ Copy the controller, view, models, libraries into your application directory of 
 Writting forms to files
 -----------------------
 
-Copy the controller, view, models, libraries into your application directory of a CodeIgniter installation
-Copy assets directory to you application root directory, there should be 4 directories (application, assets, system and user_guide)
-Note: Don´t forget to set up $config['base_url'] in .../aplication/config/config.php (line 25) for core.css to load.
+If you want your built forms to be written to files please CHMOD the directory /forms at the base of the install.
 
 Save statistics to a database
 ------------------------------
