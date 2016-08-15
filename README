@@ -9,7 +9,7 @@ INSTALL
 
 Copy the controller, view, models, libraries into your application directory of a CodeIgniter installation
 Copy assets directory to you application root directory, there should be 4 directories (application, assets, system and user_guide)
-Note: Don´t forget to set up $config['base_url'] in .../aplication/config/config.php (line 25) for core.css to load.
+Note: Don´t forget to set up $config['base_url'] in .../aplication/config/config.php (line 25) for core.css to load properly.
 
 Writting forms to files
 -----------------------
